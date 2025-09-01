@@ -1,0 +1,14 @@
+import streamlit as st
+from langchain_helper import get_few_shot_db_chain
+
+st.title("T Shirts: Database Q&A 👕")
+
+question = st.text_input("Question: ")
+
+if question:
+    chain = get_few_shot_db_chain()
+    response = chain({"query": question})  # <-- pass as dict
+    answer = response["result"]             # <-- extract the final answer
+
+    st.header("Answer")
+    st.write(answer)
