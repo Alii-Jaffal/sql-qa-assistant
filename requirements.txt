@@ -1,8 +1,6 @@
 streamlit
-langchain
-langchain-google-genai
-langchain-community
-chromadb
-sentence-transformers
+pandas
 python-dotenv
+sqlalchemy
 pymysql
+langchain-google-genai
