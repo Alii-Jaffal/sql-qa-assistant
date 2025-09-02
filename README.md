@@ -31,7 +31,7 @@ Powered by Google Gemini for SQL generation.
 4. Create a `.env` file and add your Google API key:
    GOOGLE_API_KEY=your_api_key_here
 
-5. Make sure your MySQL database (`atliq_tshirts`) is running and accessible.  
+5. Make sure your MySQL database (`i used one for t-shirts`) is running and accessible.  
    Update the database credentials inside **main.py** if needed.
 
 ## Usage
